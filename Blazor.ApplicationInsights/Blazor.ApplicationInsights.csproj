@@ -19,12 +19,12 @@
 
   <!-- TypeScript Build -->
   <ItemGroup>
-    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="3.7.4" Condition="'$(Configuration)' == 'Debug'" />
-    <TypeScriptCompile Include="**/*.ts" Condition="'$(Configuration)' == 'Debug'" />
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="3.7.4" />
+    <TypeScriptCompile Include="**/*.ts" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Update="Scripts\tsconfig.json">
+    <Content Update="tsconfig.json">
       <Pack>false</Pack>
     </Content>
   </ItemGroup>
