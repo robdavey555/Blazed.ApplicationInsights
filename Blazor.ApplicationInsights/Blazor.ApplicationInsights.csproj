@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RazorLangVersion>3.0</RazorLangVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 
@@ -17,8 +18,8 @@
 
   <!-- TypeScript Build -->
   <ItemGroup>
-    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="3.7.4" />
-    <TypeScriptCompile Include="**/*.ts" />
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="3.7.4" Condition="'$(Configuration)' == 'Debug'" />
+    <TypeScriptCompile Include="**/*.ts" Condition="'$(Configuration)' == 'Debug'" />
   </ItemGroup>
 
 </Project>

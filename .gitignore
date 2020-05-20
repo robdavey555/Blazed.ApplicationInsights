@@ -6,3 +6,5 @@
 /Blazor.ApplicationInsights/bin/Debug/netstandard2.0
 /Blazor.ApplicationInsights/.vs/Blazor.ApplicationInsights/v16
 /Blazor.ApplicationInsights/obj
+/Blazor.ApplicationInsights/bin
+/Blazor.ApplicationInsights/.vs/Blazor.ApplicationInsights/DesignTimeBuild
