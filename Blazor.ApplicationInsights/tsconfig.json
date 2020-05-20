@@ -8,9 +8,6 @@
     "module": "none",
     "outFile": "wwwroot/blazor-application-insight.js"
   },
-  "include": [
-    "wwwroot/**/*"
-  ],
   "exclude": [
     "node_modules"
   ]

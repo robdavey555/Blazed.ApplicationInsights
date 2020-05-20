@@ -23,4 +23,10 @@
     <TypeScriptCompile Include="**/*.ts" Condition="'$(Configuration)' == 'Debug'" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Scripts\tsconfig.json">
+      <Pack>false</Pack>
+    </Content>
+  </ItemGroup>
+
 </Project>
