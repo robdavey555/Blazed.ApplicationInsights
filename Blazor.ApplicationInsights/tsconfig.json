@@ -7,8 +7,11 @@
     "target": "es5",
     "module": "none",
     "outFile": "wwwroot/blazor-application-insight.js"
-  }
-  //"exclude": [
-  //  "node_modules"
-  //]
+  },
+  "include": [
+    "wwwroot/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
