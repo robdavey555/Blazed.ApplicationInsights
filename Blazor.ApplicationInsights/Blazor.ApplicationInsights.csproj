@@ -5,6 +5,7 @@
     <RazorLangVersion>3.0</RazorLangVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IsPackable>true</IsPackable>
+    <IncludeContentInPack>false</IncludeContentInPack>
   </PropertyGroup>
 
 
