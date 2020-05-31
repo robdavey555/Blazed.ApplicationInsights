@@ -1,4 +1,4 @@
-﻿using Blazor.ApplicationInsights.Contants;
+﻿using Blazor.ApplicationInsights.Constants;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Routing;
 using Microsoft.JSInterop;
