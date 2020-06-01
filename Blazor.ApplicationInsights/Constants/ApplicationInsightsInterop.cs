@@ -1,4 +1,4 @@
-﻿namespace Blazor.ApplicationInsights.Contants
+﻿namespace Blazor.ApplicationInsights.Constants
 {
     internal static class ApplicationInsightsInterop
     {
