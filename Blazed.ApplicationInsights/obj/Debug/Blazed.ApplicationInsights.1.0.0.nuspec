@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Blazed.ApplicationInsights</id>
+    <version>1.0.0</version>
+    <authors>Blazed.ApplicationInsights</authors>
+    <owners>Blazed.ApplicationInsights</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.AspNetCore.Components" version="3.1.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="3.1.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\robda\source\repos\Blazed.ApplicationInsights\Blazed.ApplicationInsights\bin\Debug\netstandard2.0\Blazed.ApplicationInsights.dll" target="lib\netstandard2.0\Blazed.ApplicationInsights.dll" />
+    <file src="C:\Users\robda\source\repos\Blazed.ApplicationInsights\Blazed.ApplicationInsights\obj\Debug\netstandard2.0\staticwebassets\msbuild.Blazed.ApplicationInsights.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="C:\Users\robda\source\repos\Blazed.ApplicationInsights\Blazed.ApplicationInsights\obj\Debug\netstandard2.0\staticwebassets\msbuild.build.Blazed.ApplicationInsights.props" target="build\Blazed.ApplicationInsights.props" />
+    <file src="C:\Users\robda\source\repos\Blazed.ApplicationInsights\Blazed.ApplicationInsights\obj\Debug\netstandard2.0\staticwebassets\msbuild.buildMultiTargeting.Blazed.ApplicationInsights.props" target="buildMultiTargeting\Blazed.ApplicationInsights.props" />
+    <file src="C:\Users\robda\source\repos\Blazed.ApplicationInsights\Blazed.ApplicationInsights\obj\Debug\netstandard2.0\staticwebassets\msbuild.buildTransitive.Blazed.ApplicationInsights.props" target="buildTransitive\Blazed.ApplicationInsights.props" />
+    <file src="C:\Users\robda\source\repos\Blazed.ApplicationInsights\Blazed.ApplicationInsights\wwwroot\blazor-application-insight.js" target="staticwebassets\blazor-application-insight.js" />
+  </files>
+</package>

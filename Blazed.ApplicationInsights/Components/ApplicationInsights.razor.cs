@@ -1,11 +1,11 @@
-﻿using Blazor.ApplicationInsights.Constants;
+﻿using Blazed.ApplicationInsights.Constants;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Routing;
 using Microsoft.JSInterop;
 using System;
 using System.Threading.Tasks;
 
-namespace Blazor.ApplicationInsights.Components
+namespace Blazed.ApplicationInsights.Components
 {
     public class ApplicationInsightsComponent : ComponentBase, IDisposable
     {
