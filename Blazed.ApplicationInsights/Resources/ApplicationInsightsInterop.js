@@ -14,7 +14,7 @@ var ApplicationInsightsInterop;
     }
     ApplicationInsightsInterop.configure = configure;
     function navigate(href) {
-        console.log('Navigated: ${href}');
+        console.log(`Navigated: ${href}`);
     }
     ApplicationInsightsInterop.navigate = navigate;
 })(ApplicationInsightsInterop || (ApplicationInsightsInterop = {}));
