@@ -6,6 +6,11 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IsPackable>true</IsPackable>
     <IncludeContentInPack>false</IncludeContentInPack>
+    <TypescriptOutDir>wwwroot</TypescriptOutDir>
+    <ResolveCurrentProjectStaticWebAssetsInputsDependsOn>
+      CompileTypeScript;
+      $(ResolveCurrentProjectStaticWebAssetsInputs)
+    </ResolveCurrentProjectStaticWebAssetsInputsDependsOn>
   </PropertyGroup>
 
 
